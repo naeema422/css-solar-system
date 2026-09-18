@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Solar System | CSS Art</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Starfield Background -->
+  <div class="stars"></div>
+  <div class="stars stars-2"></div>
+  <div class="stars stars-3"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Interactive <span>Solar System</span></h1>
+    <p>Pure CSS · No JavaScript · Hover any planet to explore</p>
+  </header>
+
+  <!-- Solar System -->
+  <main class="solar-system">
+
+    <!-- Sun -->
+    <div class="sun">
+      <div class="sun-glow"></div>
+      <div class="sun-core"></div>
+    </div>
+
+    <!-- Mercury -->
+    <div class="orbit orbit-mercury">
+      <div class="planet mercury">
+        <span class="planet-name">Mercury</span>
+        <div class="tooltip">
+          <h4>Mercury</h4>
+          <p>Closest to the Sun</p>
+          <span>88 days / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Venus -->
+    <div class="orbit orbit-venus">
+      <div class="planet venus">
+        <span class="planet-name">Venus</span>
+        <div class="tooltip">
+          <h4>Venus</h4>
+          <p>Hottest planet</p>
+          <span>225 days / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Earth + Moon -->
+    <div class="orbit orbit-earth">
+      <div class="planet earth">
+        <span class="planet-name">Earth</span>
+        <div class="tooltip">
+          <h4>Earth</h4>
+          <p>Our home planet</p>
+          <span>365 days / orbit</span>
+        </div>
+        <div class="moon-orbit">
+          <div class="moon"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mars -->
+    <div class="orbit orbit-mars">
+      <div class="planet mars">
+        <span class="planet-name">Mars</span>
+        <div class="tooltip">
+          <h4>Mars</h4>
+          <p>The Red Planet</p>
+          <span>687 days / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jupiter -->
+    <div class="orbit orbit-jupiter">
+      <div class="planet jupiter">
+        <span class="planet-name">Jupiter</span>
+        <div class="tooltip">
+          <h4>Jupiter</h4>
+          <p>Largest planet</p>
+          <span>12 years / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Saturn -->
+    <div class="orbit orbit-saturn">
+      <div class="planet saturn">
+        <span class="planet-name">Saturn</span>
+        <div class="ring"></div>
+        <div class="tooltip">
+          <h4>Saturn</h4>
+          <p>Famous for its rings</p>
+          <span>29 years / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Uranus -->
+    <div class="orbit orbit-uranus">
+      <div class="planet uranus">
+        <span class="planet-name">Uranus</span>
+        <div class="tooltip">
+          <h4>Uranus</h4>
+          <p>Ice giant</p>
+          <span>84 years / orbit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Neptune -->
+    <div class="orbit orbit-neptune">
+      <div class="planet neptune">
+        <span class="planet-name">Neptune</span>
+        <div class="tooltip">
+          <h4>Neptune</h4>
+          <p>Farthest planet</p>
+          <span>165 years / orbit</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Solar System · Built with pure CSS ☀️</p>
+  </footer>
+
+</body>
+</html>
